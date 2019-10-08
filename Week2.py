@@ -54,3 +54,4 @@ print(formatter % (True,False,False,True))
 print(formatter % (formatter,formatter,formatter,formatter))
 
 # Why did i use %r instead of %s?
+# it shows the entire quotes isntead of just the function of the quotes
