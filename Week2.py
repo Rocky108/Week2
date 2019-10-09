@@ -62,10 +62,17 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
 print("the days of the week are .", days)
 print("the months of the year are .", months)
 
-print(""")
+print("""
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+""")
 
+#What if i didn't like jan being on the the line with the rest of the
+#text and away from the other months? How could i fix that?
 
-
+#More Escaping
 
 tabbyCat = "\tI'm tabbeed in"
 persianCat = "I'm split\non a line"
