@@ -62,14 +62,45 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
 print("the days of the week are .", days)
 print("the months of the year are .", months)
 
-
+print(""")
 
 
 
 
 tabbyCat = "\tI'm tabbeed in"
-persianCat = "i'm split\non a line"
+persianCat = "I'm split\non a line"
 backslashCat = "I'm\\a\\cat."
 taskCat = """
 I'll make a list:
 \t*cat food
+\t*Fishies
+\t*catnip\n\t* grass
+"""
+print(tabbyCat)
+print(persianCat)
+print(backslashCat)
+print(taskCat)
+
+#Escape Seq         What does it do
+#\\
+#\'
+#\"
+#\a
+#\b
+#\f
+#\n
+#\N{name}
+#\r
+#\t
+#\uxxxx
+#\Uxxxxxxxx
+#\v
+#\ooo
+#\xhh
+
+# What's the following code do:
+#   While true:
+#        for i in ["/","-","|","\\","|"]:
+#            print("%s\r"%i,end='')
+# Can you replace """ with '''?
+
