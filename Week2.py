@@ -55,3 +55,21 @@ print(formatter % (formatter,formatter,formatter,formatter))
 
 # Why did i use %r instead of %s?
 # it shows the entire quotes isntead of just the function of the quotes
+
+days = "Mon Tue Wed Thu Fri"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
+
+print("the days of the week are .", days)
+print("the months of the year are .", months)
+
+
+
+
+
+
+tabbyCat = "\tI'm tabbeed in"
+persianCat = "i'm split\non a line"
+backslashCat = "I'm\\a\\cat."
+taskCat = """
+I'll make a list:
+\t*cat food
