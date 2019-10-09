@@ -74,7 +74,7 @@ Even 4 lines if we want, or 5, or 6.
 
 #More Escaping
 
-tabbyCat = "\tI'm tabbeed in"
+tabbyCat = "\tI'm tabbed in"
 persianCat = "I'm split\non a line"
 backslashCat = "I'm\\a\\cat."
 taskCat = """
@@ -110,4 +110,4 @@ print(taskCat)
 #        for i in ["/","-","|","\\","|"]:
 #            print("%s\r"%i,end='')
 # Can you replace """ with '''?
-
+No.
