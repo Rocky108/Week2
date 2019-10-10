@@ -110,11 +110,11 @@ print(taskCat)
 #        for i in ["/","-","|","\\","|"]:
 #            print("%s\r"%i,end='')
 # Can you replace """ with '''?
-No.
+#No
 
 # Asking Questions
 
-Age = input("how old are you?")
-Height = input("how tall are you?")
+age = input("How old are you? ")
+height = input("How tall are you? ")
 
-print("So, you really %r old and %r tall? WOW..." % (Age,Height))
+print("So, you really %r old and %r tall? Wow..." % (age, height))
