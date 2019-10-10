@@ -111,3 +111,10 @@ print(taskCat)
 #            print("%s\r"%i,end='')
 # Can you replace """ with '''?
 No.
+
+# Asking Questions
+
+Age = input("how old are you?")
+Height = input("how tall are you?")
+
+print("So, you really %r old and %r tall? WOW..." % (Age,Height))
