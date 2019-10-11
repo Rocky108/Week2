@@ -123,13 +123,13 @@ chess = input("WOULDN'T YOU PREFER A GOOD GAME OF CHESS?")
 
 print("GREETINGS PROFESSOR FALKEN. %r HOW ARE YOU FEELING TODAY? %r EXCELLENT. IT'S BEEN A LONG TIME. CAN YOU EXPLAIN THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/73? %r YES THEY DO. SHALL WE PLAY A GAME? %r WOULDN'T YOU PREFER A GOOD GAME OF CHESS? %r " % (intro, wellBeing, UserDeletion, Game, chess))
 
-age = input("How old are you? ")
-height = input("How tall are you? ")
+age = input("How old are you?")
+height = input("How tall are you?")
 
 print("So, you're really %r years old and %r feet tall? Wow..." % (age, height))
 
-trip = input("how was your trip? ")
-fun = input("Did you have fun at the beach? ")
+trip = input("how was your trip?")
+fun = input("Did you have fun at the beach?")
 
 print("Hey, you went on a trip? %r. Thats good, So was the water nice %r. sounds like it was a good time." % (trip, fun))
 
